@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <form id="form" class="user-form">
+      <input
+        type="text"
+        id="search"
+        placeholder="GitHub Kullanıcısı"
+        autocomplete="off"
+      />
+      <button type="submit">
+        <i class="bi bi-search"></i>
+      </button>
+      <button class="delete">Temizle</button>
+    </form>
+    <main id="main"></main>
+    <!-- JS Bağlantısı -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
